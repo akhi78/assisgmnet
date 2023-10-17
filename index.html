@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr id="columns">
+          <th>Action</th>
+          <th>ID</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Month,Year</th>
+          <th>Date Excluded</th>
+          <th>Number Of days</th>
+          <th>Lead Count</th>
+          <th>Expected DRR</th>
+          <th>Last Updated</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>Nill</td>
+        <td>10</td>
+        <td><input id="StartDate" /></td>
+        <td><input id="EndDate" /></td>
+        <td></td>
+        <td>
+          <input id="ExcludedDate" type="date" /><button onclick="addDate()">
+            add
+          </button>
+        </td>
+        <td></td>
+        <td><input id="leadCount" /></td>
+        <td>-</td>
+        <td>
+          <button onclick="AddData()">Save</button>
+          <button>Cancel</button>
+        </td>
+      </tr>
+      <tbody></tbody>
+    </table>
+    <script src="index1.js"></script>
+  </body>
+</html>
